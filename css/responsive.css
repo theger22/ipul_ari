@@ -1,0 +1,456 @@
+
+/* 1024 px */
+@media (min-width:1024px){
+	/* Section */
+	section .container{
+		padding:0px 60px;
+	}
+	section.parallax .container{
+		padding:110px 70px;
+	}
+	
+	/* Flexslider */
+	header.mySlide, .flexslider{
+		height:650px !important;
+	}
+	
+	/* Team */
+	.team-list{
+		width:85% !important;
+	}
+	
+	/* Portfolio */
+	.portfolio-list{
+		width:98.7%;
+	}
+
+	/* News */
+	.news-item{
+		width:88% !important;
+	}
+	
+	/* Embed */
+	.thumb-project .embed-responsive {
+		padding-bottom: 340px;
+	}
+	.embed-responsive {
+		padding-bottom: 300px;
+	}
+}
+@media (width:1024px){
+	/* Team */
+	.team-list .team a{
+		top:22%;
+		left:32%;
+	}
+	/* Portfolio */
+	.portfolio-list{
+		width:100% !important;
+	}
+}
+
+@media (max-width:1024px){
+	
+	/* Header */
+	.text-sub{
+		font-size:50px;
+	}
+	
+	/* Flexslider */
+	.flex_caption{
+		top:45% !important;
+	}
+	
+	/* Embed */
+	.embed-responsive {
+		padding-bottom: 200px;
+	}
+	
+}
+
+
+/* 768 px */
+@media (width:768px){
+	/* Navbar */
+	.navbar-header{
+		display:block;
+		width:100%;
+		position:relative;
+	}
+	.skill-team{
+		display:table;
+		width:53%;
+	}
+	
+	/* Team */
+	.team-list{width:80% !important;}
+	.team-list .team a{
+		top:25%;
+		left:32%;
+	}
+}
+
+@media (max-width:768px){
+	
+	/* Header */
+	.text-sub{
+		font-size:40px;
+	}
+	
+	/* Section */
+	section .container{
+		padding-left:30px;
+		padding-right:30px;
+	}
+	section.parallax .container{
+		padding:70px 50px;
+	}
+	
+	/* Flexslider */
+	header.mySlide, .flexslider{
+		height:460px !important;
+	}
+	.flex_caption{
+		top:40% !important;
+	}
+
+	/* Navbar */
+	.navbar-header{
+		margin-bottom:0px;
+	}
+	.navbar-header a{
+		padding:8px 20px 0px;
+	}	
+	nav.myNav ul.nav > li a{
+		padding: 20px;
+	}
+	
+	/* Navbar */
+	.logo{margin-left:20px;}
+
+	/* Team */
+	.img-team{
+		float:left;
+		margin-right:10px;
+	}
+	.team-list .team	{
+		width:79%;
+		margin:auto;
+	}
+	
+	/* Price */
+	.price-item{
+		padding:0px;
+	}
+	
+	/* Page */
+	.main-content,
+	.sidebar-content{
+		padding: 15px;
+	}	
+	
+	/* Embed */
+	.embed-responsive {
+		padding-bottom: 40%;
+	}
+}
+
+
+/* 640 px */
+@media (width:640px){
+	
+	/* Team */
+	.skill-team{
+		display:table;
+		width:40%;
+	}
+}
+	
+@media (max-width:640px){
+	
+	/* Header */
+	.text-main{
+		font-size:25px;
+	}
+	.text-sub{
+		font-size:30px;
+	}
+	
+	/* Flexslider */
+	header.mySlide, .flexslider{
+		height:360px !important;
+	}
+	.flex_caption{
+		top:40% !important;
+	}
+	
+	
+	/* Navbar */
+	.navbar-header{
+		margin-bottom:0px;
+	}
+	.navbar-header a{
+		padding:25px 20px;	
+	}
+	nav.myNav ul.nav > li a{
+		padding: 10px;
+	}
+	.stickit ul#nav > li > a{
+		padding-top:12px;
+		padding-bottom:12px;
+	}
+	.nav-control a.menu-nav{
+		display:block;
+	}
+	.menu-nav{
+		float:right;
+	}
+	.navbar-collapse{
+		margin-top:0px;
+	}
+	
+	.nav-control a{
+		padding:0px;
+	}
+	.nav-control a img{
+		padding:7px 2px 3px;
+	}
+	
+	/* Section */
+	section .container{
+		padding-left:50px;
+		padding-right:50px;
+	}
+	section.parallax .container{
+		padding:70px 50px;
+	}
+	.title-section h3:before,
+	.title-section h3:after {
+		width:20px;
+	}
+	
+	
+	/* Scroll to top */
+	#backToTop{
+		right:0px;
+	}
+	
+	/* About */
+	.icon-about,
+	.item-count-story{
+		width:50%;
+		float:left;
+		margin:auto;
+	}
+	.item-count-story{margin-bottom:40px;}
+	
+	/* Team */
+	.team-list{
+		padding:0px 0%;
+	}
+	.team-list .team a{
+		top:25%;
+		left:32%;
+	}
+	
+	/* Mission */
+	.list-mission .owl-item{
+		margin:0px 5px;
+	}
+	
+	/* Price */
+	.price-item{
+		width:46%;
+		float:left;
+		margin:10px;
+	}
+	
+	/* Pagination */
+	.pagination{
+		margin:auto;
+		display:table;
+	}
+	.pagination li a{
+		padding:10px 12px;
+		font-size:14px;
+		margin:3px;
+	}
+	.pagination li a:hover{
+		padding:9px 11px;
+	}
+	
+	/*Embed*/
+	.nav-embed{display:none;}
+}
+
+/* 480 px */
+@media (max-width:480px){
+	/* Header */
+	.text-main{
+		font-size:20px;
+	}
+	.text-sub{
+		font-size:20px;
+	}
+	
+	/* Flexslider */
+	header.mySlide, .flexslider{
+		height:320px !important;
+	}
+	.flex_caption{
+		top:50% !important;
+	}
+	
+	/* Team */
+	.team-list .team	{
+		width:70%;
+		margin:auto;
+	}
+	.team-list .team a{
+		top:25%;
+		left:36%;
+	}
+	.skill-team{
+		display:table;
+		width:100%;
+	}
+	.img-team{
+		width:100%;
+		margin-bottom:30px;
+	}
+	.img-team img{margin:auto;}
+	
+	/* Price */
+	.price-item{
+		width:45%;
+		float:left;
+		margin:10px;
+	}
+	
+	/* Modal */
+	.header-project .pull-right{
+		float:left !important;
+		margin-top:20px;
+	}
+}
+
+/* 360 px */
+@media (max-width:360px){
+	/* Section */
+	section.parallax .container{
+		padding:110px 20px;
+	}
+	
+	/* Header */
+	.text-main{
+		font-size:20px;
+	}
+	.text-sub{
+		font-size:30px;
+	}
+
+	/* Flexslider */
+	header.mySlide, .flexslider{
+		height:238px !important;
+	}
+	.flex_caption .link-header,
+	.flex_caption .text-main{
+		display:none;
+	}
+	.flex_caption .text-sub{
+		font-size:25px;
+	}
+	.flex_caption{
+		top:40% !important;
+	}
+
+	/* Title Section */
+	.title-section h3:before,
+	.title-section h3:after {
+		width:20px;
+	}
+	
+	/* Section */
+	section .container{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	/* About */
+	.icon-about,
+	.item-count-story{
+		width:95%;
+		float:none;
+		margin:auto;
+	}
+	.item-count-story{
+		margin-bottom:50px;
+	}
+	
+	/* Team */
+	.team-list .team	{
+		width:80%;
+		margin:auto;
+	}
+	
+	/* Price */
+	.price-item{
+		padding:10px;
+		width:93%;
+	}
+	
+	/* Portfolio */
+	.item-folio {
+		width:300px;
+	}
+	
+	/* Footer */
+	ul.footer-social li a{
+		font-size:15px;
+		margin:5px;
+	}
+	
+	/* Pagination */
+	.pagination li a{
+		padding:8px 10px;
+		font-size:14px;
+		margin:3px;
+	}
+	.pagination li a:hover{
+		padding:7px 9px;
+	}
+}
+
+/* 320 px */
+@media (max-width:320px){
+	
+	/* Header */
+	header .container .vertical-align-wrap{
+		margin-left:-35px;
+	}
+	
+	/* Flexslider */
+	header.mySlide, .flexslider{
+		height:200px !important;
+	}
+	.flex_caption .text-sub{
+		font-size:20px;
+	}
+	
+	/* Team */
+	.team-list .team	{
+		width:90%;
+		margin:auto;
+	}
+	
+	/* Modal Project */
+	.modal-footer .container table{
+		float:none;
+		margin-left:-20px;
+	}
+	
+	/* News */
+	.news-item .item{
+		margin:10px 5px;
+	}
+}

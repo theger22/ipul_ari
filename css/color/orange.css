@@ -1,0 +1,217 @@
+
+/*--------------------------------------------------------
+Text Selection
+--------------------------------------------------------*/
+::-moz-selection {  background: #FF9380; }
+::selection      { background: #FF9380; } 
+
+
+/*--------------------------------------------------------
+COLOR
+--------------------------------------------------------*/
+/*---- color all link ----*/
+a,
+a:hover,
+
+/*---- circle comment ----*/
+.comment .media-body .media-heading small:before,
+
+/*---- blockquote ----*/
+blockquote:before,
+blockquote:after,
+
+/*---- Social Icon ----*/
+ul.social-icon li a,
+ul.social-icon-block li a:hover,
+
+/*---- footer ----*/
+ul.footer-social li a:hover,
+
+/*---- Sidebar ----*/
+.well ul li.active a,
+.well ul li.active a:hover,
+.well ul li a:hover,
+
+/*---- Text Color ----*/
+.text-light,
+
+/*---- Mission item ----*/
+.list-mission .item .item-mission,
+
+/*---- Team List ----*/
+.team-list .team a:hover,
+.team-list .team.active a,
+
+/*---- btn default style ----*/
+.btn-main-block:hover,
+.btn-main-block:focus,
+
+/*---- List .menu-tabled ----*/
+.bg-color .menu-tabled .circled a:hover,
+
+/*---- Navigation when open ----*/
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+
+/*---- Navigation Active ----*/
+nav.myNav ul.nav > li.active a:hover,
+nav.myNav ul.nav > li.active a:focus,
+nav.myNav ul.nav > li.active a,
+
+/*---- .btn-main ----*/
+.btn-main,
+
+/*---- List Icon ----*/
+.icon-list i,
+
+/*---- About ----*/
+.icon-about .room i.fa{
+	color:#FF3A17;
+}
+
+
+
+/*--------------------------------------------------------
+BACKGROUND MUST IMPORTANT
+--------------------------------------------------------*/
+.team-list .team,/*---- Team List ----*/
+
+/*---- Scroll span on navigation dropdown ----*/
+span.scroll-up,
+span.scroll-down{
+	background-color:#E62200 !important;
+}
+
+
+
+/*--------------------------------------------------------
+BORDER
+--------------------------------------------------------*/
+/*---- Border ----*/
+.tab  .nav-tabs li.active a,
+
+/*---- Social Icon ----*/
+ul.social-icon li a,
+ul.social-icon-block li a,
+
+/*---- Pagination ----*/
+.pagination li.active a,
+.pagination li.active a:hover,
+.pagination li.active a:focus,
+
+/*---- Project ----*/
+.list-project > li.active > img,/*---- Carousel list img Active ----*/
+ol.carousel-indicators li.active,/*---- Carousel Active ----*/
+
+/*---- Mission item ----*/
+.list-mission .owl-item:hover,
+
+/*---- Pricing Table ----*/
+.price-item .panel .footer-price,
+.price-item .panel .panel-heading,
+
+.circled,/*---- Class With Circle Condition ----*/
+.menu-tabled ul li a,/*---- Menu Tabled ----*/
+
+/*---- btn main ----*/
+.btn-main,
+.btn-main:hover,
+
+.btn-main-block:focus,
+.btn-main-block:hover{
+	border-color:#FF3A17;
+}
+
+
+
+/*--------------------------------------------------------
+MAIN BACKGROUND
+--------------------------------------------------------*/
+/*---- Social Icon ----*/
+ul.social-icon li a:hover,
+ul.social-icon-block li a,
+
+/*---- footer ----*/
+ul.footer-social li a,
+
+/*---- Flexslider ----*/
+.flex-control-paging li a,
+
+/*---- Pagination ----*/
+.pagination li.active a,
+.pagination li.active a:hover,
+.pagination li.active a:focus,
+
+/*---- Sidebar ----*/
+ul.category-blog li a span.badge,
+ul.category-blog li.active a span.badge, 
+
+/*---- Mission ----*/
+.list-mission .synced .item .item-mission,
+
+/*---- Carousel ----*/
+ol.carousel-indicators li,
+.carousel-caption,
+
+/*---- Navigation Control ----*/
+.nav-control a.menu-nav,
+.nav-control a.menu-nav:hover,
+.nav-control a.menu-nav:focus,
+
+/*---- Scroll to top ----*/
+.scroll-top a,
+
+/*---- btn main ----*/
+.btn-main:hover,
+.btn-main-block,
+
+/*---- Progress ----*/
+div.progress-bar,
+
+/*---- Team ----*/
+div.menu-tabled.link-social-team ul li.circled,
+.value-skill{
+	background-color:#FF3A17;
+}
+
+
+
+/*--------------------------------------------------------
+SUB BACKGROUND
+--------------------------------------------------------*/
+/*---- footer ----*/
+footer,
+
+/*---- Modal ----*/
+.modal.modal-fullscreen .modal-header,
+
+/*---- Portfolio ----*/
+.bg-folio,
+.menu-filter-folio ul li.active a.filter-label,
+
+/*---- News ----*/
+.news-item .item .thumbnail span,
+
+/*---- Pricing table ----*/
+.price-item.active .panel .panel-heading,
+.price-item.active .panel .footer-price,
+.price-item.active .panel .footer-price a:hover,
+.item-service a,
+
+/*---- Navbar ----*/
+.navbar-default .navbar-nav > .open .dropdown-menu  > .open > a,
+.navbar-default .navbar-nav > .open .dropdown-menu  > .open > a:hover,
+.navbar-default .navbar-nav > .open .dropdown-menu  > .open > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+
+/*---- Title Section ----*/
+.title-section h3:before,
+.title-section h3:after,
+
+.bg-color,
+.bg-block{
+	background-color:#FF6F55;
+}
+
